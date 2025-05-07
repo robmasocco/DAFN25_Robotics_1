@@ -197,26 +197,16 @@
 	Just think about a \textbg{swarm} of drones, each one cameras and the like, trying to communicate over a \textbg{wireless network}...
 \end{frame}
 \begin{frame}{Flaws}{Abandoning the DDS?}
-	\begin{columns}
-		\column{.5\textwidth}
-		ROS 2 steering committees are considering the \textbg{abandonment} of the DDS middleware in favor of \textbg{new solutions}. The main requirements are:
-		\begin{itemize}
-			\item \textbg{scalability}, especially with entity queries;
-			\item \textbg{low latency}, on constrained hardware and low-power networks;
-			\item \textbg{configurability};
-			\item \textbg{optimization of data transfers}.
-		\end{itemize}
-		\bigskip
-		The newest LTS version, \textbg{Jazzy Jalisco}, is the first one to ship with a RMW based on the \href{https://zenoh.io/}{\color{blue}\textbf{\underline{Zenoh}}} middleware.
-
-		\column{.5\textwidth}
-		\begin{figure}
-			\centering
-			\includegraphics[width=.65\textwidth]{zenoh}
-			\label{fig:zenoh}
-			\caption{Zenoh logo.}
-		\end{figure}
-	\end{columns}
+  ROS 2 steering committees are considering the \textbg{abandonment} of the DDS middleware in favor of \textbg{new solutions}.\\
+  The main requirements are:
+  \begin{itemize}
+    \item \textbg{scalability}, especially with entity queries;
+    \item \textbg{low latency}, on constrained hardware and low-power networks;
+    \item \textbg{configurability};
+    \item \textbg{optimization of data transfers}.
+  \end{itemize}
+  \bigskip
+  The newest LTS version, \textbg{Jazzy Jalisco}, is the first one to ship with a RMW based on the \href{https://zenoh.io/}{\color{blue}\textbf{\underline{Zenoh}}} middleware.
 \end{frame}
 
 % --- Zenoh ---
